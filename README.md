@@ -1,1 +1,1 @@
-# Ogrenci-Bilgi-Sistemi-Qt-C++
+# Ogrenci-Bilgi-Sistemi-Qt-Cpp
