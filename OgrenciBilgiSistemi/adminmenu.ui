@@ -1,0 +1,3669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminMenu</class>
+ <widget class="QMainWindow" name="AdminMenu">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1409</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="10,90">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(9,5,13);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frameUst">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item alignment="Qt::AlignRight">
+           <widget class="QFrame" name="frameUstIcon">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>10</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btnKucult">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+image: url(:/Ikonlar/Ikonlar/kucult.png);
+border-color: rgb(231, 5, 62);
+border-width: 1px;
+border-style: outset;
+border-radius: 5px;
+padding: 3px;
+width:35px;
+height:25px
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QPushButton:pressed{
+border-style: inset;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>16</width>
+                 <height>16</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnGenislet">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+image: url(:/Ikonlar/Ikonlar/genislet.png);
+border-color: rgb(231, 5, 62);
+border-width: 1px;
+border-style: outset;
+border-radius: 5px;
+padding: 3px;
+width:35px;
+height:25px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QPushButton:pressed{
+border-style: inset;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnKapat">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+image: url(:/Ikonlar/Ikonlar/kapat.png);
+border-color: rgb(231, 5, 62);
+border-width: 1px;
+border-style: outset;
+border-radius: 5px;
+padding: 3px;
+width:35px;
+height:25px
+}
+
+QPushButton:hover {
+background-color: rgb(255, 0, 0);
+}
+
+QPushButton:pressed{
+border-style: inset;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frameUst_2">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>150</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item alignment="Qt::AlignLeft">
+           <widget class="QFrame" name="frameBtnGeri">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>25</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btnGeri">
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+image: url(:/Ikonlar/Ikonlar/geri.png);
+border-color: rgb(231, 5, 62);
+border-width: 1px;
+border-style: outset;
+border-radius: 5px;
+padding: 3px;
+width:45px;
+height:35px
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QPushButton:pressed{
+border-style: inset;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignLeft">
+           <widget class="QFrame" name="frameLabel">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item alignment="Qt::AlignLeft">
+              <widget class="QFrame" name="frame_10">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QLabel" name="lblBaslik">
+                  <property name="font">
+                   <font>
+                    <pointsize>-1</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Admin Menüsü</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(24, 24, 36);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>4</number>
+         </property>
+         <widget class="QWidget" name="pageMenu">
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+            <widget class="QFrame" name="frame_3">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_13">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <property name="bottomMargin">
+               <number>30</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_11">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <property name="spacing">
+                  <number>40</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>40</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnOgrEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Öğrenci Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnOgrSil">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Öğrenci Sil</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnAkdEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Akademisyen Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnAkdDersEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Akademisyen Ders Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+            <widget class="QFrame" name="frame_4">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <property name="topMargin">
+               <number>30</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_12">
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <property name="spacing">
+                  <number>40</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>40</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnFakulteEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Fakülte Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnBolumEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnDersEkle">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Ekle</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnDersSil">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Sil</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="btnCikis">
+                   <property name="minimumSize">
+                    <size>
+                     <width>188</width>
+                     <height>75</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Çıkış</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageOgrEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_8" stretch="0,0">
+           <property name="leftMargin">
+            <number>30</number>
+           </property>
+           <property name="topMargin">
+            <number>20</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_5">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="50,50">
+              <property name="topMargin">
+               <number>30</number>
+              </property>
+              <property name="bottomMargin">
+               <number>30</number>
+              </property>
+              <item alignment="Qt::AlignHCenter">
+               <widget class="QFrame" name="frame_33">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_31">
+                 <property name="spacing">
+                  <number>18</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>30</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Öğrenci Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Öğrenci Soyadı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Cinsiyeti:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Fakülte Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_20">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Eğitim:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Sınıf:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_8">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Öğrenci Numarası:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_34">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <property name="spacing">
+                  <number>35</number>
+                 </property>
+                 <property name="sizeConstraint">
+                  <enum>QLayout::SetDefaultConstraint</enum>
+                 </property>
+                 <property name="leftMargin">
+                  <number>30</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QLineEdit" name="lnOgrEkleAd">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>-1</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnOgrEkleSoyad">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                  <widget class="QFrame" name="frame_9">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <property name="spacing">
+                     <number>50</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdOgrErkek">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Erkek</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdOgrKadin">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Kadın</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxOgrEkleFakulte">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxOgrEkleBolum">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                  <widget class="QFrame" name="frame_8">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <property name="spacing">
+                     <number>30</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdLisans">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisans</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdLisansustu">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisansüstü</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spBoxOgrEkleSinif">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QSpinBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QSpinBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="minimum">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <number>6</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnOgrEkleOgrNo">
+                   <property name="minimumSize">
+                    <size>
+                     <width>200</width>
+                     <height>25</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_6">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_7">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QPushButton" name="btnOgrEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageOgrSil">
+          <layout class="QVBoxLayout" name="verticalLayout_36">
+           <property name="topMargin">
+            <number>100</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_37">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <property name="spacing">
+               <number>50</number>
+              </property>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_39">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_37">
+                 <item>
+                  <widget class="QLabel" name="label_26">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Silinecek Öğrencinin Numarası:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_40">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_38">
+                 <item>
+                  <widget class="QLineEdit" name="lnOgrSilOgrNo">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 25px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_38">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_39">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_41">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_40">
+                 <property name="bottomMargin">
+                  <number>200</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnOgrSilOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageAkdEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_30">
+           <property name="leftMargin">
+            <number>30</number>
+           </property>
+           <property name="topMargin">
+            <number>25</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_29">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="50,50">
+              <property name="bottomMargin">
+               <number>40</number>
+              </property>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_31">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_32">
+                 <property name="spacing">
+                  <number>20</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>60</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_22">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Akademisyen Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_23">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Akademisyen Soyadı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_33">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Unvan</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_24">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Cinsiyet:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_25">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Kullanıcı Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_32">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_33">
+                 <property name="spacing">
+                  <number>35</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>60</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>60</number>
+                 </property>
+                 <item>
+                  <widget class="QLineEdit" name="lnAkdEkleAd">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnAkdEkleSoyad">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxAkdEkleUnvan">
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_35">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_13">
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdErkek">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Erkek</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdKadin">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Kadın</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnAkdEkleKullaniciAdi">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_30">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_34">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_36">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_35">
+                 <item>
+                  <widget class="QPushButton" name="btnAkdEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageAkdDersEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_41">
+           <property name="spacing">
+            <number>5</number>
+           </property>
+           <property name="topMargin">
+            <number>100</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_42">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="50,50">
+              <property name="spacing">
+               <number>6</number>
+              </property>
+              <property name="bottomMargin">
+               <number>40</number>
+              </property>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_44">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_42">
+                 <property name="spacing">
+                  <number>10</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>40</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>60</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_27">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Akademisyen Kullanıcı Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_30">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_35">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Eğitim:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_34">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Sınıf:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_29">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Dönem:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_31">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_32">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Id:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_45">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_43">
+                 <property name="spacing">
+                  <number>25</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>60</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <item>
+                  <widget class="QLineEdit" name="lnAkdEkleId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxAkdDersEkleBolum">
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_55">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_20">
+                    <property name="spacing">
+                     <number>35</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdDersLisans">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisans</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdDersLisansustu">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisansüstü</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spBoxAkdDersSinif">
+                   <property name="styleSheet">
+                    <string notr="true">QSpinBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QSpinBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="minimum">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <number>4</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_52">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                    <property name="spacing">
+                     <number>35</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdDersEkleGuz">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Güz</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdAkdDersEkleBahar">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Bahar</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxAkdEkleDers">
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnAkdEkleDersId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_43">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_44">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_46">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_45">
+                 <item>
+                  <widget class="QPushButton" name="btnAkdDersEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageFakulteEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <property name="topMargin">
+            <number>75</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_13">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="50,50">
+              <property name="topMargin">
+               <number>9</number>
+              </property>
+              <property name="bottomMargin">
+               <number>40</number>
+              </property>
+              <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_15">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <property name="spacing">
+                  <number>95</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>75</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Fakülte Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_9">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Fakülte Id:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignLeft|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_16">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <property name="spacing">
+                  <number>110</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>75</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleFakulteAd">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleFakulteId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_14">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_17">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <item>
+                  <widget class="QPushButton" name="btnFakulteEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageBolumEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_20">
+           <property name="topMargin">
+            <number>75</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_18">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="50,50">
+              <property name="topMargin">
+               <number>9</number>
+              </property>
+              <property name="bottomMargin">
+               <number>40</number>
+              </property>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_19">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_21">
+                 <property name="spacing">
+                  <number>70</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>9</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>75</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_10">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Fakülte Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_11">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_12">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Id:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_20">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_22">
+                 <property name="spacing">
+                  <number>85</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>75</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxBolumEkleFakulte">
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleBolumAd">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleBolumId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_21">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_23">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_22">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_24">
+                 <item>
+                  <widget class="QPushButton" name="btnBolumEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageDersEkle">
+          <layout class="QVBoxLayout" name="verticalLayout_25">
+           <property name="leftMargin">
+            <number>30</number>
+           </property>
+           <property name="topMargin">
+            <number>25</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_23">
+             <property name="styleSheet">
+              <string notr="true">QFrame{
+background-color: rgb(9,5,13);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+}</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="50,50">
+              <property name="leftMargin">
+               <number>9</number>
+              </property>
+              <property name="rightMargin">
+               <number>9</number>
+              </property>
+              <property name="bottomMargin">
+               <number>40</number>
+              </property>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_25">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_26">
+                 <property name="spacing">
+                  <number>10</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>60</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_14">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Bölüm Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_21">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Eğitim</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_18">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Sınıf</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_19">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Dönem</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_13">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Adı:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_16">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Kredi:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_17">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Akts:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_15">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Ders Id:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_26">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_27">
+                 <property name="spacing">
+                  <number>25</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>60</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>60</number>
+                 </property>
+                 <item>
+                  <widget class="QComboBox" name="cmBoxDersEkleBolum">
+                   <property name="styleSheet">
+                    <string notr="true">QComboBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QComboBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: lightgray;
+color:rgb(255,255,255);
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_53">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_19">
+                    <property name="spacing">
+                     <number>15</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdDersEkleLisans">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisans</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdDersEkleLisansustu">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Lisansüstü</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spBoxDersEkleSinif">
+                   <property name="styleSheet">
+                    <string notr="true">QSpinBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QSpinBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="minimum">
+                    <number>1</number>
+                   </property>
+                   <property name="maximum">
+                    <number>6</number>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+                  <widget class="QFrame" name="frame_28">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_10">
+                    <property name="spacing">
+                     <number>15</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="rdDersEkleGuz">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Güz</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="rdDersEkleBahar">
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QRadioButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Bahar</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleDersAd">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spBoxDersKredi">
+                   <property name="styleSheet">
+                    <string notr="true">QSpinBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QSpinBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spBoxDersAkts">
+                   <property name="styleSheet">
+                    <string notr="true">QSpinBox{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QSpinBox:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lnEkleDersId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 15px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_24">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_28">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_27">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_29">
+                 <item>
+                  <widget class="QPushButton" name="btnDersEkleOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="pageDersSil">
+          <layout class="QVBoxLayout" name="verticalLayout_46">
+           <property name="topMargin">
+            <number>100</number>
+           </property>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_47">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_49">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_47">
+                 <item>
+                  <widget class="QLabel" name="label_28">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+background-color: rgb(231, 5, 62);
+border-color: rgb(231, 5, 62);
+border-width: 10px;
+border-style: outset;
+border-radius: 20px;
+color:rgb(255,255,255);
+font-size: 20px;
+}
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Silinecek Ders Id:</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_50">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_48">
+                 <item>
+                  <widget class="QLineEdit" name="lnSilDersId">
+                   <property name="styleSheet">
+                    <string notr="true">QLineEdit{
+border-color: rgb(231, 5, 62);
+border-width: 2px;
+border-style: outset;
+border-radius: 2px;
+color:rgb(255,255,255);
+font-size: 25px;
+}
+
+QLineEdit:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QFrame" name="frame_48">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_49">
+              <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+               <widget class="QFrame" name="frame_51">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_50">
+                 <property name="bottomMargin">
+                  <number>200</number>
+                 </property>
+                 <item>
+                  <widget class="QPushButton" name="btnDersSilOnayla">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton {
+	background-color: rgb(9,5,13);
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(231,5,62);
+    font: bold 14px;
+	color:rgb(255,255,255);
+    min-width: 10em;
+    padding: 6px;
+}
+
+QPushButton:hover {
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgb(41, 128, 185), stop:1 rgb(52, 152, 219));
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>Onayla</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1409</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(24,24,36);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
